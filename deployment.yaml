@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: register-app
-          image: aniketp12/register
+          image: aniketp12/register:latest
           resources:
             limits:
               memory: "256Mi"
